@@ -15,6 +15,7 @@ Kawruhe is a portfolio web app.
 * [NuxtJS](https://nuxtjs.org/) - The Intuitive Vue Framework
 * [TailwindCSS](https://tailwindcss.com/) - A utility-first CSS framework for rapid UI development.
 * [Vercel](https://vercel.com/dashboard) - Deploy web projects with the best frontend developer experience and highest end-user performance.
+* [NextJS](https://nextjs.org/) - The React Framework ***(implemented soon)***
 
 
 ## Getting Started
