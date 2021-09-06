@@ -8,8 +8,8 @@
 			<li class:active={$page.path === '/'}><a sveltekit:prefetch href="/">Home</a></li>
 			<li class:active={$page.path === '/about'}><a sveltekit:prefetch href="/">About</a></li>
 			<li><a sveltekit:prefetch href="/"> <img src="/logo.svg" alt="Rasio Ganang Atmaja" width="50" height="50"></a></li>
-			<li class:active={$page.path === '/portfolio'}><a sveltekit:prefetch href="/">Portfolio</a></li>
-			<li><a href="https://links.rasio.dev">Links</a></li>
+			<li><a href="https://github.com/rasatmaja" target="_blank">Portfolio</a></li>
+			<li><a href="https://links.rasio.dev" target="_blank">Links</a></li>
 		</ul>
 	</nav>
 </header>
