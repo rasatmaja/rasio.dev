@@ -1,20 +1,20 @@
-# **JWT RS512 signing method**
-
-**Issues Number** : 387  
+**Issues Number** : 
+- #101
+- #102   
 
 **Pull request type** :  
 
-- [ ] 🐞 Bug Fix
-- [x] 🦌 Feature
-- [ ] 🤴 Code style update (formatting, renaming)
-- [ ] 🏇🏼 Refactoring (no functional changes, no api changes)
-- [ ] 🏅 Build related changes
-- [ ] 🦧 Documentation content changes
+- 🐞 Bug Fix
+- 🦌 Feature
+- 🤴 Code style update (formatting, renaming)
+- 🏇🏼 Refactoring (maintenance, no functional changes, no api changes)
+- 🏅 Build related changes
+- 🦧 Documentation content changes
 
 **Descriptions** :  
 
-- Impementation of new RS512 signing method
-- Impementation of RSA key
+- Implementation of new RS512 signing method
+- Implementation of RSA key
 - Unit testing 
 
 **Tests that have been done in this PR** :  
