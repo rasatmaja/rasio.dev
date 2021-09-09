@@ -5,6 +5,7 @@
 <script>
 	import Experience from '$lib/section/Experience.svelte';
 	import EndSection from '$lib/section/EndSection.svelte';
+	//import Project from '$lib/section/Project/index.svelte';
 </script>
 
 <svelte:head>
@@ -18,7 +19,6 @@
 		<h1 class="text-5xl font-black tracking-tight my-2">I'm Rasio Atmaja.</h1>
 		<h3 class="text-lg font-light text-gray-500">I'm a software engineer, Researcher</h3>
 	</div>
-	
 </section>
 
 <Experience/>
