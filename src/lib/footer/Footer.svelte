@@ -3,8 +3,8 @@
     var year = new Date().getFullYear();
 </script>
 <footer class="w-full py-4 border-t-2 text-gray-500 text-sm mt-20">
-    <div class="md:max-w-2xl mx-4 md:mx-auto items-center flex justify-between">
-        <p>© { year } Rasio Atmaja. All rights reserved.</p>
+    <div class="md:max-w-2xl mx-4 md:mx-auto flex flex-col-reverse md:flex-row md:justify-between items-center">
+        <p class="mt-3 md:mt-0">© { year } Rasio Atmaja. All rights reserved.</p>
         <SocialMedia/>
     </div>
     
