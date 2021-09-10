@@ -5,7 +5,7 @@
 <script>
 	import Experience from '$lib/section/Experience.svelte';
 	import EndSection from '$lib/section/EndSection.svelte';
-	//import Project from '$lib/section/Project/index.svelte';
+	import Project from '$lib/section/Project/index.svelte';
 </script>
 
 <svelte:head>
@@ -21,5 +21,6 @@
 	</div>
 </section>
 
+<Project/>
 <Experience/>
 <EndSection/>

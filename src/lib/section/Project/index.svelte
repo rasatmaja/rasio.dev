@@ -34,8 +34,8 @@
 <section class="min-h-full my-20">
     <div>
 		<p class="text-lg font-medium tracking-wide text-secondary">PROJECT</p>
-		<p class="text-5xl font-black tracking-tight my-1">Make your contribution</p>
-		<p class="text-lg font-light text-gray-500">Small experiments, inspired inventions, and the software everyone depends on—the code you write on GitHub can reach one codebase or millions.</p>
+		<p class="text-5xl font-black tracking-tight my-1">Bits of codes</p>
+		<p class="text-lg font-light text-gray-500">Every small experiment, inspired idea, and coffee I drink, I turn it into the code that builds this masterpiece</p>
 	</div>
     <div class="grid md:grid-cols-2 gap-5 my-8">
         {#each repos as repo}
@@ -53,7 +53,7 @@
 
     <button class="py-3 px-5 bg-blue-600 text-white rounded-lg">
         <a href="https://github.com/rasatmaja" target="__blank">
-            See more on GitHub
+            See more on GitHub <span>→</span>
         </a>
     </button>
 </section>
