@@ -2,28 +2,28 @@
     let repos = [
         {
             "link":"https://github.com/rasatmaja/mura",
-            "author":"rasarmaja/",
+            "author":"rasatmaja/",
             "name":"mura",
             "img": "🐍",
             "desc":"An environment variable reader for Go that bind env value into struct variable, with zero external dependency."
         },
         {
             "link":"https://github.com/rasatmaja/rock-paper-scissors",
-            "author":"rasarmaja/",
+            "author":"rasatmaja/",
             "name":"rock-paper-scissors",
             "img": "🤖",
             "desc":"A simple machine learning to classification an image into three category rock, paper, or scissors."
         },
         {
             "link":"https://github.com/rasatmaja/MaintainabilityIndex",
-            "author":"rasarmaja/",
+            "author":"rasatmaja/",
             "name":"MaintainabilityIndex",
-            "img": "🦣",
+            "img": "🦁",
             "desc":"The system for calculate Maintainability Index values of the Java source code and display graph visualizations"
         },
         {
             "link":"https://github.com/rasatmaja/boxius",
-            "author":"rasarmaja/",
+            "author":"rasatmaja/",
             "name":"boxius",
             "img": "📦",
             "desc":"Go Rest API service to manage and optimize a web assets (image, scripts, css)"
@@ -35,12 +35,12 @@
     <div>
 		<p class="text-lg font-medium tracking-wide text-secondary">PROJECT</p>
 		<p class="text-5xl font-black tracking-tight my-1">Bits of codes</p>
-		<p class="text-lg font-light text-gray-500">Every small experiment, inspired idea, and coffee I drink, I turn it into the code that builds this masterpiece</p>
+		<p class="text-lg font-light text-gray-500">Every small experiment, inspired ideas, and coffee I drink, I turn into the code that builds these masterpieces</p>
 	</div>
     <div class="grid md:grid-cols-2 gap-5 my-8">
         {#each repos as repo}
             <a href={repo.link} target="__blank">
-                <div class="p-4 rounded-xl border bg-gray-50 hover:bg-gray-100 border-gray-300 transform transition duration-300 hover:scale-105">
+                <div class="p-4 rounded-xl border bg-gray-50 hover:bg-gray-100 border-gray-300 transform transition duration-300">
                     <div class="flex items-center mb-2">
                         <p class="p-2 text-xl bg-white border border-gray-200 rounded-xl">{repo.img}</p>
                         <p class="ml-2 text-gray-500">{repo.author}<span class="font-medium text-primary">{repo.name}</span></p>
