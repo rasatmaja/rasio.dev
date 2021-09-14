@@ -31,7 +31,7 @@
     ]
 </script>
 
-<section class="min-h-full my-20">
+<section class="min-h-full mb-20">
     <div>
 		<p class="text-lg font-medium tracking-wide text-secondary">PROJECT</p>
 		<p class="text-5xl font-black tracking-tight my-1">Bits of codes</p>

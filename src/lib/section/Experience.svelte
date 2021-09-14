@@ -2,7 +2,7 @@
 	export const prerender = true;
 </script>
 
-<section class="min-h-full my-20">
+<section class="min-h-full my-10">
 	<div class="mb-5">
 		<h2 class="text-lg font-medium tracking-wide text-secondary">EXPERIENCE</h2>
 		<h1 class="text-5xl font-black tracking-tight my-1">Awesome Journey</h1>
