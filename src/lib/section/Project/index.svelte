@@ -8,6 +8,13 @@
             "desc":"An environment variable reader for Go that bind env value into struct variable, with zero external dependency."
         },
         {
+            "link":"https://github.com/rasatmaja/zephyr-one",
+            "author":"rasatmaja/",
+            "name":"zephyr-one",
+            "img": "🦊",
+            "desc":"An API that serving a users authentication service with swagger UI integration as API documentations"
+        },
+        {
             "link":"https://github.com/rasatmaja/rock-paper-scissors",
             "author":"rasatmaja/",
             "name":"rock-paper-scissors",
@@ -20,13 +27,6 @@
             "name":"MaintainabilityIndex",
             "img": "🦁",
             "desc":"The system for calculate Maintainability Index values of the Java source code and display graph visualizations"
-        },
-        {
-            "link":"https://github.com/rasatmaja/boxius",
-            "author":"rasatmaja/",
-            "name":"boxius",
-            "img": "📦",
-            "desc":"Go Rest API service to manage and optimize a web assets (image, scripts, css)"
         },
     ]
 </script>
