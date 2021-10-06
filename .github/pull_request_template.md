@@ -15,10 +15,4 @@
 
 - Implementation of new RS512 signing method
 - Implementation of RSA key
-- Unit testing 
-
-**Tests that have been done in this PR** :  
-
-- [x] `make test` : pass  
-- [x] `make lint` : pass  
-- [x] `make build` : success  
+- Unit testing  
