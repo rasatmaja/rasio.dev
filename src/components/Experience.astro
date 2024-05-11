@@ -1,9 +1,6 @@
-<script context="module">
-	export const prerender = true;
-</script>
+---
 
-<script>
-	let experiences = [
+let experiences = [
         {
             "tittle":"Backend Engineer",
             "company":"Engineering Divsion, IDN Media",
@@ -29,7 +26,7 @@
             "desc":"Assist lecturers and 41 students in the practical process of database systems using Microsoft SQL Server. Perform analysis and assessment of student reports in writing SQL queries."
         },
     ]
-</script>
+---
 
 <section class="min-h-full my-10">
 	<div class="mb-5">
@@ -39,13 +36,13 @@
 	</div>
 	
 	<div class="grid grid-cols-1 gap-4">
-		{#each experiences as job}
-			<div class="p-4 border rounded-lg flex flex-col space-y-1">
+        {experiences.map((job) => (
+            <div class="p-4 border rounded-lg flex flex-col space-y-1">
 				<p class="text-lg font-bold text-primary">{job.tittle}</p>
 				<p class="font-light text-gray-500">{job.company}</p>
 				<p class="text-sm font-light text-secondary">{job.dates}</p>
 				<p class="text-gray-700">{job.desc}</p>
 			</div>
-		{/each}
+        ))}
 	</div>	
 </section>
