@@ -10,7 +10,7 @@
 	});
 </script>
 
-<div class="sticky z-50 top-0 md:py-2 md:mb-20 border-b-2 backdrop-filter backdrop-blur-lg bg-opacity-10 firefox:bg-opacity-90">
+<div class="sticky z-50 top-0 md:p-2 md:mb-20 border-b-2 backdrop-filter backdrop-blur-lg bg-opacity-10 firefox:bg-opacity-90 md:w-fit md:m-auto md:border-2 md:rounded-full md:top-5">
 	<div class="max-w-2xl mx-auto">
 		<div class="md:hidden p-4 flex flex-row items-center justify-between">
 			<a href="/">
@@ -33,13 +33,9 @@
 		</div>
 		<nav class="menu-toggle hidden md:flex">
 			<ul class="px-4 md:px-0 w-full flex flex-col md:flex-row md:justify-between md:items-center font-medium text-gray-600 text-base">
-				<li><a href="/">Home</a></li>
+				<li class="active"><a href="/">Home</a></li>
 				<li><a href="/">About</a></li>
-				<li class="hidden md:block">
-					<a href="/"><img src="/logo.svg" alt="Rasio Ganang Atmaja" width="50" height="50" /></a>
-				</li>
 				<li><a href="https://github.com/rasatmaja" target="_blank">Portfolio</a></li>
-				<li><a href="https://links.rasio.dev" target="_blank">Links</a></li>
 			</ul>
 		</nav>
 	</div>
@@ -52,13 +48,13 @@
 	}
 	@media (min-width: 768px) {
 		li {
-			@apply px-5;
-			@apply py-1;
+			@apply px-14;
+			@apply py-2;
 		}
 	}
 	.active {
 		@apply bg-primary;
 		@apply text-white;
-		@apply rounded-lg;
+		@apply rounded-full;
 	}
 </style>
