@@ -17,12 +17,12 @@ Initialize GO modules to defines the module’s module path, which is also the i
 
 **Technical type** :  
 
-- 🐞 Bug Fix
-- 🦌 Feature
-- 🤴 Code style update (formatting, renaming)
-- 🏇🏼 Refactoring (maintenance, no functional changes, no api changes)
-- 🏅 Build related changes
-- 🦧 Documentation content changes
+- Bug Fix
+- Feature
+- Code style update (formatting, renaming)
+- Refactoring (maintenance, no functional changes, no api changes)
+- Build related changes
+- Documentation content changes
 
 
 **Task** :
