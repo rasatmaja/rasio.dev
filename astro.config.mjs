@@ -11,5 +11,9 @@ export default defineConfig({
       enabled: true
     }
   }),
-  integrations: [tailwind()]
+  integrations: [tailwind()],
+  redirects: {
+    '/home': '/',
+    '/resume': '/resume.pdf',
+  }
 });
