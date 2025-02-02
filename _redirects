@@ -1,0 +1,4 @@
+/link https://links.rasio.dev 301
+/link/* https://links.rasio.dev/:splat 301
+/links https://links.rasio.dev 301
+/links/* https://links.rasio.dev/:splat 301
