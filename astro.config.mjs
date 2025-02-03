@@ -12,4 +12,12 @@ export default defineConfig({
     }
   }),
   integrations: [tailwind()],
+  redirects:{
+    '/home': '/',
+    '/resume': '/resume.pdf',
+    '/link': 'https://links.rasio.dev',
+    '/link/*':  'https://links.rasio.dev/:splat',
+    '/links': 'https://links.rasio.dev',
+    '/links/*':  'https://links.rasio.dev/:splat'
+  }
 });
