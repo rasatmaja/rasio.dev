@@ -12,8 +12,4 @@ export default defineConfig({
     }
   }),
   integrations: [tailwind()],
-  redirects: {
-    '/home': '/',
-    '/resume': '/resume.pdf',
-  }
 });
