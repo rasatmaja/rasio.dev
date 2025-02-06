@@ -1,8 +1,9 @@
 name: Deployment Clodflare Pages Production
 
 on:
-  release:
-    types: [published]
+  pull_request:
+    branches:
+      - master
 
 jobs:
   deployment:
