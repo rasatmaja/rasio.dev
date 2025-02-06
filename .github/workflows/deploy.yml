@@ -3,7 +3,7 @@ name: Deployment Clodflare Pages Production
 on:
   pull_request:
     branches:
-      - main
+      - master
 
 jobs:
   deployment:
