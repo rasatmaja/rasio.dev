@@ -34,4 +34,4 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
-          command: 'pages deploy ./dist --project-name=rasatmaja --branch=master'
+          command: 'pages deploy ${{ vars.CLOUDFLARE_PAGES_DIST_DIRECTORY }} --project-name=${{ vars.CLOUDFLARE_PAGES_PROJECT_NAME }} --branch=${{ vars.CLOUDFLARE_PAGES_TARGET_BRANCH }}'
