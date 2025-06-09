@@ -13,14 +13,14 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
-    "@astrojs/cloudflare": "^12.5.3",
+    "@astrojs/cloudflare": "^12.5.4",
     "@astrojs/tailwind": "^6.0.2",
-    "astro": "^5.7.13",
+    "astro": "^5.9.1",
     "tailwindcss": "^3.4.17",
     "typescript": "^5.8.3"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20250515.0",
-    "wrangler": "^4.15.2"
+    "@cloudflare/workers-types": "^4.20250607.0",
+    "wrangler": "^4.19.1"
   }
 }
